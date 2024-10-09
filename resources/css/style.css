@@ -1,0 +1,123 @@
+.header-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    height: 200px;
+    width: 100vw;
+    background-image: url("../images/corks.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    margin-top: 30px;
+    height: 30px;
+    background-color: white;
+    justify-content: right;
+    padding-right: 10vw;
+}
+
+.nav-item {
+    align-self: center;
+}
+
+.nav-item a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.header-container h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.header-container h2{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    color: darkmagenta;    
+}
+
+main {
+    position: relative;
+    top: 200px;
+}
+
+.description {
+    display: block;
+    max-width: 800px;
+    margin: auto;
+}
+
+.description p {
+    font-size: 40px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.section {
+    border-top: 2px solid black;
+}
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+.section-header h1 {
+    text-align: center;
+    color: darkmagenta;
+}
+
+.section-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+.section-element {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.section-element img{
+    width: 250px;
+    height: 250px;
+    resize: both;
+    margin-right: 20px;
+    align-self:flex-start;
+}
+
+.section-element-text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-start;
+}
+
+.section-element-text h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.section-element-text p {
+    margin-top: 0;
+}
